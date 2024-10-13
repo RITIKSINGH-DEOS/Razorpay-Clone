@@ -1,1 +1,1 @@
-#RazorPay Clone
+#RazorPay Clone not responsive
