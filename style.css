@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-white {
+    color: white;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.gray-blue{
+    color: #344a6c;
+}
+
+.text-color{
+    color: rgb(123, 115, 115);
+}
+
+.companiesList{
+    animation: 10s infinite linear moveCompany;
+}
+
+@keyframes moveCompany {
+    0% {
+        top: 0;
+    }
+    100%{
+        top: -50%;
+    }
+}
